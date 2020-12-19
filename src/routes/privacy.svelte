@@ -27,5 +27,11 @@
 			      uk-icon="info"
 			      uk-tooltip="This external party provides the website's contents since they host all of the data on their servers."></span>
 		</li>
+		<li>
+			<a href="https://policies.google.com/privacy">Google Forms</a>
+			<span class="uk-margin-small-right pointer-cursor"
+			      uk-icon="info"
+			      uk-tooltip="This external party provides the form to contact me. While that service is visible it maybe collecting personal data and data transferred through it may be collected as well."></span>
+		</li>
 	</ul>
 </div>
