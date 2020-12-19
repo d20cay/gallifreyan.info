@@ -2,9 +2,10 @@
 
 This repository contains the code for the gallifreyan.info domain.
 
-Version: 1.0.1
+Version: 1.1.0
 
 ## Current structure:
+
 - Homepage
 - Guides
     - Sherman's Circular Gallifreyan
