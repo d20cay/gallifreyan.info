@@ -4,6 +4,7 @@
 	import Navbar from '../components/Navbar.svelte';
 	import Footer from '../components/Footer.svelte';
 	import {onDestroy} from "svelte";
+	import CookieModal from "../components/CookieModal.svelte";
 
 	let currentPageValue;
 
@@ -23,3 +24,5 @@
 {#if currentPageValue !== Page.UNKNOWN && currentPageValue !== Page.HOME}
 	<Footer/>
 {/if}
+
+<CookieModal/>
