@@ -34,4 +34,7 @@
 			      uk-tooltip="This external party provides the form to contact me. While that service is visible it maybe collecting personal data and data transferred through it may be collected as well."></span>
 		</li>
 	</ul>
+
+	To store data about whether a user has consented to having cookies stored about them a cookie is
+	used that purely indicates whether consent was given or not.
 </div>
