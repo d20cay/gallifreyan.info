@@ -5,12 +5,12 @@
 </script>
 
 <svelte:head>
-	<title>Privacy & Security</title>
+	<title>Privacy Policy</title>
 </svelte:head>
 
 
 <div class="uk-container uk-container-small uk-margin">
-	<h1>Privacy & Security</h1>
+	<h1>Privacy Policy</h1>
 
 	Personal information from the users of this website is collected through the following list of
 	parties unassociated with the webmaster:
