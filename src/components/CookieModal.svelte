@@ -1,5 +1,6 @@
 <script>
 	import {onMount} from 'svelte';
+	import Privacy from "./Privacy.svelte";
 
 	onMount(() => {
 		if (!userAgreedToCookies(document.cookie)) {
@@ -10,7 +11,8 @@
 	const CONSENT_COOKIE_NAME = "cookieConsentGallifreyanInfo"
 
 	function saveConsentCookie() {
-		document.cookie = `${CONSENT_COOKIE_NAME}=true; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT`
+		document.cookie =
+			`${CONSENT_COOKIE_NAME}=true; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT`
 	}
 
 	function goBack() {
@@ -35,6 +37,7 @@
 				knowledge that you're being tracked or not use the website at all. I don't have the
 				time to implement the feature to disable tracking.
 			</p>
+			<Privacy/>
 		</div>
 		<div class="uk-modal-footer">
 			<button on:click={saveConsentCookie}
