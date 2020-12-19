@@ -78,5 +78,8 @@
 		<div>
 			<a href="changelog/">Changelog</a>
 		</div>
+		<div>
+			<a href="imprint/">Imprint</a>
+		</div>
 	</div>
 </footer>
