@@ -25,6 +25,16 @@ export const TypeTextMap = new Map([
 
 export const changelog = [
 	{
+		date: '2020-12-22',
+		version: '1.2.0',
+		changes: [
+			{
+				text: 'sitemap.xml.',
+				type: Type.ADDED
+			},
+		]
+	},
+	{
 		date: '2020-12-19',
 		version: '1.1.0',
 		changes: [
