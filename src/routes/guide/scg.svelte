@@ -688,6 +688,13 @@
 	</dd>
 </dl>
 <dl class="uk-description-list">
+	<dt>Can I download this guide somehow?</dt>
+	<dd>
+		You can. I have a <a href=""></a>list of downloads that can help you to remember the letters
+		and some additional files if you're not sure on the specifics.
+	</dd>
+</dl>
+<dl class="uk-description-list">
 	<dt>Can you translate something for me?</dt>
 	<dd>
 		I will for a fee. <a href="contact/">Contact me</a> so we can get you a cool design!
