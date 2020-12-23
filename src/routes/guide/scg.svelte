@@ -662,16 +662,16 @@
 	<dt>What editor an you recommend to start writing SCG?</dt>
 	<dd>
 		A popular and free choice is to write Circular Gallifreyan
-		is<a href="https://inkscape.org/">Inkscape</a>. However<a href="https://inkscape.org/">Inkscape</a>
+		is <a href="https://inkscape.org/">Inkscape</a>. However <a href="https://inkscape.org/">Inkscape</a>
 		is quite advanced and hard to get into. To get started I can recommend the free version of
-		<a href="https://www.designer.io/">Gravit Designer</a>. Because of
-		how<a href="https://www.designer.io/">Gravit Designer</a> is written you might have a hard
+		<a href="https://www.designer.io/">Gravit Designer</a>. Because of how
+		<a href="https://www.designer.io/">Gravit Designer</a> is written you might have a hard
 		time stretching your legs and getting more creative with your designs so it might be a good
 		idea to start looking for something more suitable at that point.<br>
 		Personally I use <a href="https://affinity.serif.com/en-us/designer/">Affinity Designer</a>because
 		it's only a one-time payment and it gives me all I need. Some people that don't feel
-		comfortable switching also write Gallifreyan
-		in<a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>.
+		comfortable switching also write Gallifreyan in
+		<a href="https://www.adobe.com/products/photoshop.html">Photoshop</a>.
 	</dd>
 </dl>
 <dl class="uk-description-list">
