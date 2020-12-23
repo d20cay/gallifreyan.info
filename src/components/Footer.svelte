@@ -63,6 +63,9 @@
 			<a href="https://www.reddit.com/r/gallifreyan/">Gallifreyan Subreddit</a>
 		</div>
 		<div>
+			<a href="https://discord.gg/cgEcS2uhSt">Gallifreyan Discord</a>
+		</div>
+		<div>
 			<a href="contact/">Contact</a>
 		</div>
 		<div>
