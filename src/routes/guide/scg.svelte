@@ -28,7 +28,7 @@
 <HelpOverlay/>
 
 <h1>
-	{lang}
+	How to write {lang}
 </h1>
 
 <div class="uk-grid">
