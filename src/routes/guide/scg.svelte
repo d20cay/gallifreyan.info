@@ -36,7 +36,8 @@
 		{lang}, sometimes also called Circular Gallifreyan, short CG or SCG, is a writing system /
 		alphabet invented by Loren Sherman back in 2011. Since then it has gained popularity and
 		even made its way onto the Doctor Who show. I'll cover everything that Sherman covers in his
-		guide and maybe even a bit more.
+		guide and maybe even a bit more. Bear in mind that this is only a writing system. You can't
+		speak {lang}, you can only write it. So {lang} is only a writing system and not a language.
 	</div>
 	<div class="uk-width-1-5@l uk-width-1-4@m uk-width-1-2@s">
 		<Image src="img/guide/gallifreyan.svg"
