@@ -3,10 +3,11 @@
 	import {currentPage, Page} from "../../stores";
 	import Image from "../../components/Image.svelte";
 	import HelpOverlay from "../../components/HelpOverlay.svelte";
+	import {LANGUAGE, LANGUAGE_NAME_MAP} from "../../global";
 
 	currentPage.set(Page.SCG);
 
-	const lang = 'Sherman\'s Circular Gallifreyan';
+	const lang = LANGUAGE_NAME_MAP.get(LANGUAGE.SCG)
 	let counter = 0;
 
 	onMount(() => {
