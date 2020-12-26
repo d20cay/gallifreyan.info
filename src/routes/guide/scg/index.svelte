@@ -154,7 +154,7 @@
 	</div>
 </div>
 
-<h2>Words</h2>
+<h2>The Words</h2>
 
 <p>
 	To read a word in Gallifreyan, start with the letter that is the furthest at the bottom of the
@@ -499,7 +499,7 @@
 	</div>
 </div>
 
-<h2>Sentences</h2>
+<h2>The Sentences</h2>
 
 <div uk-grid>
 	<div class="uk-width-1-3@m">
@@ -548,7 +548,7 @@
 	</div>
 </div>
 
-<h3>Punctuation</h3>
+<h3>The Punctuation</h3>
 <div class="uk-flex uk-flex-center">
 	<div class="uk-width-1-2@m">
 		<Image src="img/guide/scg/sentences/punctuation/punctuation.svg"
@@ -613,7 +613,7 @@
 	</div>
 </div>
 
-<h2>Numbers</h2>
+<h2>The Numbers</h2>
 
 <div class="uk-child-width-1-2@m" uk-grid>
 	<div>
@@ -652,7 +652,7 @@
 	</div>
 </div>
 
-<h2>Final Test</h2>
+<h2>The Final Test</h2>
 <p>
 	Gallifreyan sentences are read from outermost to innermost word. Translate this sentence to know
 	if you're a real Gallifreyan pro!
