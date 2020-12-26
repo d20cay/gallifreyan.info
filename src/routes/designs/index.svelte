@@ -2,13 +2,14 @@
 	import {currentPage, Page} from "../../stores";
 	import {commissionDesigns, personalDesigns} from "./data";
 	import Image from "../../components/Image.svelte";
+	import {LANGUAGE_NAME_MAP} from "../../global";
 
 	currentPage.set(Page.DESIGNS);
 
 	let counter = 0;
 
-	function altFromDesc(desc) {
-		return `"${desc}" in Gallifreyan`;
+	function altFromDesc(desc, lang) {
+		return `"${desc}" in ${LANGUAGE_NAME_MAP.get(lang)}`;
 	}
 
 	function useCounter() {
@@ -32,7 +33,7 @@
 	{#each commissionDesigns as design}
 		<div>
 			<Image src={design.src}
-			       alt={altFromDesc(design.desc)}
+			       alt={altFromDesc(design.desc, design.lang)}
 			       desc={design.desc}
 			       imageCounter={useCounter()}
 			       annotateFigure={true}/>

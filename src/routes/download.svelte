@@ -5,9 +5,9 @@
 </script>
 
 <style>
-	.lvl-one-bullet {
-		list-style-type: disc;
-	}
+    .lvl-one-bullet {
+        list-style-type: disc;
+    }
 </style>
 
 <svelte:head>
@@ -22,6 +22,8 @@
 	<li class="uk-open">
 		<a class="uk-accordion-title" href="#">Sherman's Circular Gallifreyan</a>
 		<div class="uk-accordion-content">
+			<p>The guides from this section are specific to the <a href="guide/scg/">guide for
+				Sherman's Circular Gallifreyan</a>.</p>
 			<h4>Guides</h4>
 			<p>The following downloads are the guides, in full (HTML), pocket (PDF) and compact
 				(PDF) form.</p>
