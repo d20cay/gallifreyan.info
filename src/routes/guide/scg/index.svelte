@@ -1,9 +1,10 @@
 <script>
 	import {onMount} from "svelte";
-	import {currentPage, Page} from "../../stores";
-	import Image from "../../components/Image.svelte";
-	import HelpOverlay from "../../components/HelpOverlay.svelte";
-	import {LANGUAGE, LANGUAGE_NAME_MAP} from "../../global";
+	import {doubleLetters, andVariations, numbers, sentences, wordParts} from "./data";
+	import {currentPage, Page} from "../../../stores";
+	import Image from "../../../components/Image.svelte";
+	import HelpOverlay from "../../../components/HelpOverlay.svelte";
+	import {LANGUAGE, LANGUAGE_NAME_MAP} from "../../../global";
 
 	currentPage.set(Page.SCG);
 
@@ -16,6 +17,14 @@
 			a.href = window.location.origin + window.location.pathname + a.hash;
 		});
 	});
+
+	function altFromDesc(desc, lang) {
+		return `"${desc}" in ${LANGUAGE_NAME_MAP.get(lang)}`;
+	}
+
+	function captionFromDesc(desc, lang) {
+		return `<q>${desc}</q> written in ${LANGUAGE_NAME_MAP.get(lang)}`;
+	}
 
 	function figRef(n) {
 		return `<a href="#fig${n}">Fig. ${n}</a>`;
@@ -41,9 +50,9 @@
 		speak {lang}, you can only write it. So {lang} is only a writing system and not a language.
 	</div>
 	<div class="uk-width-1-5@l uk-width-1-4@m uk-width-1-2@s">
-		<Image src="img/guide/gallifreyan.svg"
-		       alt="Gallifreyan written in {lang}"
-		       desc={`<q>Gallifreyan</q> written in ${lang}`}
+		<Image src={wordParts.intro.src}
+		       alt={altFromDesc(wordParts.intro.desc, wordParts.intro.lang)}
+		       desc={captionFromDesc(wordParts.intro.desc, wordParts.intro.lang)}
 		       imageCounter={counter += 1}
 		       annotateFigure={true}
 		       addAnchor={true}/>
@@ -77,9 +86,9 @@
 		</p>
 	</div>
 	<div>
-		<Image src="img/guide/letters/consonants.svg"
+		<Image src="img/guide/scg/letters/consonants.svg"
 		       alt="Consonant table"
-		       desc="The consonants"
+		       desc={`The ${lang} consonants`}
 		       imageCounter={counter += 1}
 		       annotateFigure={true}
 		       addAnchor={true}/>
@@ -94,9 +103,9 @@
 		</p>
 	</div>
 	<div>
-		<Image src="img/guide/letters/stems.svg"
+		<Image src="img/guide/scg/letters/stems.svg"
 		       alt="Consonant stems applied to a word circle"
-		       desc="All consonant stems applied to a word circle"
+		       desc={`All ${lang} consonant stems applied to a word circle`}
 		       imageCounter={counter += 1}
 		       annotateFigure={true}
 		       addAnchor={true}/>
@@ -119,7 +128,7 @@
 			vowels which are attached to their preceding consonant, here always <q>th</q>.
 			This again, is not an English word; it spells out <q>thathethithothu</q>.
 		</p>
-		<Image src="img/guide/letters/vowels.svg"
+		<Image src="img/guide/scg/letters/vowels.svg"
 		       alt="Vowels"
 		       desc="All vowels attached to part of a word circle"
 		       imageCounter={counter += 1}
@@ -136,7 +145,7 @@
 			These words would spell out (left to right, top to bottom) <q>bajatatha</q>,
 			<q>bojototho</q>, <q>bijitithi</q>, <q>bujututhu</q> and <q>bojototho</q>.
 		</p>
-		<Image src="img/guide/letters/stems-vowels.svg"
+		<Image src="img/guide/scg/letters/stems-vowels.svg"
 		       alt="Vowels on consonant stems"
 		       desc="All vowels attached to each of the consonant stems"
 		       imageCounter={counter += 1}
@@ -160,9 +169,9 @@
 	<ul class="uk-slider-items uk-grid uk-grid-small uk-child-width-1-1 uk-child-width-1-3@m">
 		<li>
 			<h4>D</h4>
-			<Image src="img/guide/words/doctor/d.svg"
-			       alt="D in Gallifreyan"
-			       desc="D in Gallifreyan"
+			<Image src={wordParts.d.src}
+			       alt={altFromDesc(wordParts.d.desc, wordParts.d.lang)}
+			       desc={captionFromDesc(wordParts.d.desc, wordParts.d.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -178,9 +187,9 @@
 		</li>
 		<li>
 			<h4>O</h4>
-			<Image src="img/guide/words/doctor/o.svg"
-			       alt="O in Gallifreyan"
-			       desc="O in Gallifreyan"
+			<Image src={wordParts.o.src}
+			       alt={altFromDesc(wordParts.o.desc, wordParts.o.lang)}
+			       desc={captionFromDesc(wordParts.o.desc, wordParts.o.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -191,9 +200,9 @@
 		</li>
 		<li>
 			<h4>Do</h4>
-			<Image src="img/guide/words/doctor/do.svg"
-			       alt="Do in Gallifreyan"
-			       desc="Do in Gallifreyan"
+			<Image src={wordParts.do.src}
+			       alt={altFromDesc(wordParts.do.desc, wordParts.do.lang)}
+			       desc={captionFromDesc(wordParts.do.desc, wordParts.do.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -207,9 +216,9 @@
 		</li>
 		<li>
 			<h4>K</h4>
-			<Image src="img/guide/words/doctor/c.svg"
-			       alt="C/K in Gallifreyan"
-			       desc="C/K in Gallifreyan"
+			<Image src={wordParts.c.src}
+			       alt={altFromDesc(wordParts.c.desc, wordParts.c.lang)}
+			       desc={captionFromDesc(wordParts.c.desc, wordParts.c.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -224,9 +233,9 @@
 		</li>
 		<li>
 			<h4>Dok</h4>
-			<Image src="img/guide/words/doctor/doc.svg"
-			       alt="Dok in Gallifreyan"
-			       desc="Dok in Gallifreyan"
+			<Image src={wordParts.doc.src}
+			       alt={altFromDesc(wordParts.doc.desc, wordParts.doc.lang)}
+			       desc={captionFromDesc(wordParts.doc.desc, wordParts.doc.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -237,9 +246,9 @@
 		</li>
 		<li>
 			<h4>T</h4>
-			<Image src="img/guide/words/doctor/t.svg"
-			       alt="t in Gallifreyan"
-			       desc="t in Gallifreyan"
+			<Image src={wordParts.t.src}
+			       alt={altFromDesc(wordParts.t.desc, wordParts.t.lang)}
+			       desc={captionFromDesc(wordParts.t.desc, wordParts.t.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -250,9 +259,9 @@
 		</li>
 		<li>
 			<h4>Dokt</h4>
-			<Image src="img/guide/words/doctor/doct.svg"
-			       alt="Dokt in Gallifreyan"
-			       desc="Dokt in Gallifreyan"
+			<Image src={wordParts.doct.src}
+			       alt={altFromDesc(wordParts.doct.desc, wordParts.doct.lang)}
+			       desc={captionFromDesc(wordParts.doct.desc, wordParts.doct.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -263,36 +272,37 @@
 		</li>
 		<li>
 			<h4>O</h4>
-			<Image src="img/guide/words/doctor/o.svg"
-			       alt="O in Gallifreyan"
-			       desc="O in Gallifreyan"
+			<Image src={wordParts.o.src}
+			       alt={altFromDesc(wordParts.o.desc, wordParts.o.lang)}
+			       desc={captionFromDesc(wordParts.o.desc, wordParts.o.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
+			<p>
 		</li>
 		<li>
 			<h4>Dokto</h4>
-			<Image src="img/guide/words/doctor/docto.svg"
-			       alt="Dokto in Gallifreyan"
-			       desc="Dokto in Gallifreyan"
+			<Image src={wordParts.docto.src}
+			       alt={altFromDesc(wordParts.docto.desc, wordParts.docto.lang)}
+			       desc={captionFromDesc(wordParts.docto.desc, wordParts.docto.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
 		</li>
 		<li>
 			<h4>R</h4>
-			<Image src="img/guide/words/doctor/r.svg"
-			       alt="R in Gallifreyan"
-			       desc="R in Gallifreyan"
+			<Image src={wordParts.r.src}
+			       alt={altFromDesc(wordParts.r.desc, wordParts.r.lang)}
+			       desc={captionFromDesc(wordParts.r.desc, wordParts.r.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
 		</li>
 		<li>
 			<h4>Doktor</h4>
-			<Image src="img/guide/words/doctor/doctor.svg"
-			       alt="Doktor in Gallifreyan"
-			       desc="Doktor in Gallifreyan"
+			<Image src={wordParts.doctor.src}
+			       alt={altFromDesc(wordParts.doctor.desc, wordParts.doctor.lang)}
+			       desc={captionFromDesc(wordParts.doctor.desc, wordParts.doctor.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -318,9 +328,9 @@
 	<ul class="uk-slider-items uk-grid uk-grid-small uk-child-width-1-1 uk-child-width-1-3@m">
 		<li>
 			<h4>Wh</h4>
-			<Image src="img/guide/words/who/wh.svg"
-			       alt="Wh in Gallifreyan"
-			       desc="Wh in Gallifreyan"
+			<Image src={wordParts.wh.src}
+			       alt={altFromDesc(wordParts.wh.desc, wordParts.wh.lang)}
+			       desc={captionFromDesc(wordParts.wh.desc, wordParts.wh.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -333,9 +343,9 @@
 		</li>
 		<li>
 			<h4>W</h4>
-			<Image src="img/guide/words/who/w.svg"
-			       alt="W in Gallifreyan"
-			       desc="W in Gallifreyan"
+			<Image src={wordParts.w.src}
+			       alt={altFromDesc(wordParts.w.desc, wordParts.w.lang)}
+			       desc={captionFromDesc(wordParts.w.desc, wordParts.w.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -346,9 +356,9 @@
 		</li>
 		<li>
 			<h4>H</h4>
-			<Image src="img/guide/words/who/h.svg"
-			       alt="H in Gallifreyan"
-			       desc="H in Gallifreyan"
+			<Image src={wordParts.h.src}
+			       alt={altFromDesc(wordParts.h.desc, wordParts.h.lang)}
+			       desc={captionFromDesc(wordParts.h.desc, wordParts.h.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -358,9 +368,9 @@
 		</li>
 		<li>
 			<h4>Wh</h4>
-			<Image src="img/guide/words/who/wh2.svg"
-			       alt="Wh in Gallifreyan"
-			       desc="Wh in Gallifreyan"
+			<Image src={wordParts.wh2.src}
+			       alt={altFromDesc(wordParts.wh2.desc, wordParts.wh2.lang)}
+			       desc={captionFromDesc(wordParts.wh2.desc, wordParts.wh2.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -371,9 +381,9 @@
 		</li>
 		<li>
 			<h4>O</h4>
-			<Image src="img/guide/words/who/o.svg"
-			       alt="O in Gallifreyan"
-			       desc="O in Gallifreyan"
+			<Image src={wordParts.o2.src}
+			       alt={altFromDesc(wordParts.o2.desc, wordParts.o2.lang)}
+			       desc={captionFromDesc(wordParts.o2.desc, wordParts.o2.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -384,9 +394,9 @@
 		</li>
 		<li>
 			<h4>Who</h4>
-			<Image src="img/guide/words/who/who.svg"
-			       alt="Who in Gallifreyan"
-			       desc="Who in Gallifreyan"
+			<Image src={wordParts.who.src}
+			       alt={altFromDesc(wordParts.who.desc, wordParts.who.lang)}
+			       desc={captionFromDesc(wordParts.who.desc, wordParts.who.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -398,9 +408,9 @@
 		</li>
 		<li>
 			<h4>Who</h4>
-			<Image src="img/guide/words/who/who2.svg"
-			       alt="Who in Gallifreyan"
-			       desc="Who in Gallifreyan"
+			<Image src={wordParts.who2.src}
+			       alt={altFromDesc(wordParts.who2.desc, wordParts.who2.lang)}
+			       desc={captionFromDesc(wordParts.who2.desc, wordParts.who2.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -435,17 +445,17 @@
 	<div class="uk-width-1-4@m">
 		<div class="uk-child-width-expand" uk-grid>
 			<div>
-				<Image src="img/guide/words/all.svg"
-				       alt="All in Gallifreyan"
-				       desc="All in Gallifreyan"
+				<Image src={doubleLetters.all.src}
+				       alt={altFromDesc(doubleLetters.all.desc, doubleLetters.all.lang)}
+				       desc={captionFromDesc(doubleLetters.all.desc, doubleLetters.all.lang)}
 				       imageCounter={counter += 1}
 				       annotateFigure={true}
 				       addAnchor={true}/>
 			</div>
 			<div>
-				<Image src="img/guide/words/cool.svg"
-				       alt="Cool in Gallifreyan"
-				       desc="Cool in Gallifreyan"
+				<Image src={doubleLetters.cool.src}
+				       alt={altFromDesc(doubleLetters.cool.desc, doubleLetters.cool.lang)}
+				       desc={captionFromDesc(doubleLetters.cool.desc, doubleLetters.cool.lang)}
 				       imageCounter={counter += 1}
 				       annotateFigure={true}
 				       addAnchor={true}/>
@@ -470,17 +480,17 @@
 	<div class="uk-width-1-4@m">
 		<div class="uk-child-width-expand" uk-grid>
 			<div>
-				<Image src="img/guide/words/all.svg"
-				       alt="All in Gallifreyan"
-				       desc="All in Gallifreyan"
+				<Image src={andVariations.and.src}
+				       alt={altFromDesc(andVariations.and.desc, andVariations.and.lang)}
+				       desc={captionFromDesc(andVariations.and.desc, andVariations.and.lang)}
 				       imageCounter={counter += 1}
 				       annotateFigure={true}
 				       addAnchor={true}/>
 			</div>
 			<div>
-				<Image src="img/guide/words/cool.svg"
-				       alt="Cool in Gallifreyan"
-				       desc="Cool in Gallifreyan"
+				<Image src={andVariations.ampersand.src}
+				       alt={altFromDesc(andVariations.ampersand.desc, andVariations.ampersand.lang)}
+				       desc={captionFromDesc(andVariations.ampersand.desc, andVariations.ampersand.lang)}
 				       imageCounter={counter += 1}
 				       annotateFigure={true}
 				       addAnchor={true}/>
@@ -501,9 +511,9 @@
 			exists purely to improve visual appearance. It gives a sentence more coherence. The
 			words in {@html figRef(28)} say <q>Bow ties are cool</q>.
 		</p>
-		<Image src="img/guide/sentences/bowties.svg"
-		       alt="Bowties are cool in Gallifreyan"
-		       desc="Bowties are cool in Gallifreyan"
+		<Image src={sentences.bowties.src}
+		       alt={altFromDesc(sentences.bowties.desc, sentences.bowties.lang)}
+		       desc={captionFromDesc(sentences.bowties.desc, sentences.bowties.lang)}
 		       imageCounter={counter += 1}
 		       annotateFigure={true}
 		       addAnchor={true}/>
@@ -527,9 +537,9 @@
 		</p>
 		<div class="uk-flex uk-flex-center">
 			<div class="uk-width-1-2@m">
-				<Image src="img/guide/sentences/bowties_sentence.svg"
-				       alt="Bowties are cool in Gallifreyan"
-				       desc="Bowties are cool in Gallifreyan"
+				<Image src={sentences.bowtiesSentence.src}
+				       alt={altFromDesc(sentences.bowtiesSentence.desc, sentences.bowtiesSentence.lang)}
+				       desc={captionFromDesc(sentences.bowtiesSentence.desc, sentences.bowtiesSentence.lang)}
 				       imageCounter={counter += 1}
 				       annotateFigure={true}
 				       addAnchor={true}/>
@@ -541,9 +551,9 @@
 <h3>Punctuation</h3>
 <div class="uk-flex uk-flex-center">
 	<div class="uk-width-1-2@m">
-		<Image src="img/guide/sentences/punctuation/punctuation.svg"
+		<Image src="img/guide/scg/sentences/punctuation/punctuation.svg"
 		       alt="Gallifreyan punctuation"
-		       desc="Gallifreyan punctuation"
+		       desc={`The ${lang} punctuation`}
 		       imageCounter={counter += 1}
 		       annotateFigure={true}
 		       addAnchor={true}/>
@@ -563,9 +573,9 @@
 	<div class="uk-flex uk-flex-center">
 		<div class="uk-width-1-2@m">
 			<h4>Good Practice</h4>
-			<Image src="img/guide/sentences/punctuation/ive-right.svg"
-			       alt="I've in Gallifreyan"
-			       desc="I've in Gallifreyan"
+			<Image src={sentences.iver.src}
+			       alt={altFromDesc(sentences.iver.desc, sentences.iver.lang)}
+			       desc={captionFromDesc(sentences.iver.desc, sentences.iver.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -574,9 +584,9 @@
 	<div class="uk-flex uk-flex-center">
 		<div class="uk-width-1-2@m">
 			<h4>Bad Practice</h4>
-			<Image src="img/guide/sentences/punctuation/ive-wrong.svg"
-			       alt="Ive in Gallifreyan"
-			       desc="Ive in Gallifreyan"
+			<Image src={sentences.ivew.src}
+			       alt={altFromDesc(sentences.ivew.desc, sentences.ivew.lang)}
+			       desc={captionFromDesc(sentences.ivew.desc, sentences.ivew.lang)}
 			       imageCounter={counter += 1}
 			       annotateFigure={true}
 			       addAnchor={true}/>
@@ -594,9 +604,9 @@
 		guessable from context.
 	</div>
 	<div class="uk-width-1-4@m">
-		<Image src="img/designs/personal/fear-hate.svg"
-		       alt="Without Fear. Without Hate. in Gallifreyan"
-		       desc="Without Fear. Without Hate."
+		<Image src={sentences.fearHate.src}
+		       alt={altFromDesc(sentences.fearHate.desc, sentences.fearHate.lang)}
+		       desc={captionFromDesc(sentences.fearHate.desc, sentences.fearHate.lang)}
 		       imageCounter={counter += 1}
 		       annotateFigure={true}
 		       addAnchor={true}/>
@@ -623,17 +633,17 @@
 	<div>
 		<div class="uk-child-width-1-2" uk-grid>
 			<div>
-				<Image src="img/guide/numbers/1048.svg"
-				       alt="1048 in Gallifreyan"
-				       desc="1048"
+				<Image src={numbers.onek.src}
+				       alt={altFromDesc(numbers.onek.desc, numbers.onek.lang)}
+				       desc={captionFromDesc(numbers.onek.desc, numbers.onek.lang)}
 				       imageCounter={counter += 1}
 				       annotateFigure={true}
 				       addAnchor={true}/>
 			</div>
 			<div>
-				<Image src="img/guide/numbers/13.svg"
-				       alt="-13.37 in Gallifreyan"
-				       desc="-13.37"
+				<Image src={numbers.thirteen.src}
+				       alt={altFromDesc(numbers.thirteen.desc, numbers.thirteen.lang)}
+				       desc={captionFromDesc(numbers.thirteen.desc, numbers.thirteen.lang)}
 				       imageCounter={counter += 1}
 				       annotateFigure={true}
 				       addAnchor={true}/>
@@ -649,7 +659,7 @@
 </p>
 <div class="uk-flex uk-flex-center">
 	<div class="uk-width-1-2@m">
-		<Image src="img/guide/test/everyones_important.svg"
+		<Image src="img/guide/scg/test/everyones_important.svg"
 		       alt="Final test of the Gallifreyan guide"
 		       desc="Final test"
 		       imageCounter={counter += 1}
@@ -692,7 +702,7 @@
 <dl class="uk-description-list">
 	<dt>Can I download this guide somehow?</dt>
 	<dd>
-		You can. I have a <a href=""></a>list of downloads that can help you to remember the letters
+		You can. I have a list of downloads that can help you to remember the letters
 		and some additional files if you're not sure on the specifics.
 	</dd>
 </dl>
