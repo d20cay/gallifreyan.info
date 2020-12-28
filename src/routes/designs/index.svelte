@@ -2,7 +2,7 @@
 	import {currentPage, Page} from "../../stores";
 	import {commissionDesigns, personalDesigns} from "./data";
 	import Image from "../../components/Image.svelte";
-	import {LANGUAGE_NAME_MAP} from "../../global";
+	import {DOCTOR_WHO_KEYWORDS, LANGUAGE_NAME_MAP} from "../../global";
 
 	currentPage.set(Page.DESIGNS);
 
@@ -19,7 +19,11 @@
 </script>
 
 <svelte:head>
-	<title>Gallifreyan Designs</title>
+	<title>My Gallifreyan Designs</title>
+	<meta name="description"
+	      content="Since I've discovered Doctor Who and the Galifreyan scripts I have spent a lot of time producing designs for customers and myself. Take a look at some of my designs on this page.">
+	<meta name="keywords"
+	      content={"design,photoshop,learn,study,copy,tattoo,vector,image,picture," + DOCTOR_WHO_KEYWORDS}>
 </svelte:head>
 
 <h1>Gallifreyan Designs</h1>

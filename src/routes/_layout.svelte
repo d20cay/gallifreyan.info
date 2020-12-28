@@ -12,6 +12,10 @@
 	onDestroy(() => unsubscribeCurrentPage());
 </script>
 
+<svelte:head>
+	<meta name="author" content="d20cay">
+</svelte:head>
+
 {#if currentPageValue !== Page.UNKNOWN && currentPageValue !== Page.HOME}
 	<Navbar currentPage={currentPageValue}/>
 {/if}
