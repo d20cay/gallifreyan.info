@@ -1,5 +1,6 @@
 <script>
 	import {currentPage, Page} from "../stores";
+	import {DOCTOR_WHO_KEYWORDS} from "../global";
 
 	currentPage.set(Page.DOWNLOAD);
 </script>
@@ -11,7 +12,11 @@
 </style>
 
 <svelte:head>
-	<title>Download Resources</title>
+	<title>Download Gallifreyan Guides</title>
+	<meta name="description"
+	      content="Download all of the guides to the different Gallifreyan dialects to study and master the art of writing Gallifreyan.">
+	<meta name="keywords"
+	      content={"download,files,pdf,extra,guide,offline,study,learn,master," + DOCTOR_WHO_KEYWORDS}>
 </svelte:head>
 
 <h1>Download Resources</h1>

@@ -4,7 +4,7 @@
 	import {currentPage, Page} from "../../../stores";
 	import Image from "../../../components/Image.svelte";
 	import HelpOverlay from "../../../components/HelpOverlay.svelte";
-	import {LANGUAGE, LANGUAGE_NAME_MAP} from "../../../global";
+	import {DOCTOR_WHO_KEYWORDS, LANGUAGE, LANGUAGE_NAME_MAP} from "../../../global";
 
 	currentPage.set(Page.SCG);
 
@@ -33,6 +33,10 @@
 
 <svelte:head>
 	<title>{lang} Guide</title>
+	<meta name="description"
+	      content="{lang} is the most popular Gallifreyan dialect. This page will teach you everything you need to know to write your first word or sentence. It contains all of the basics and elaborates far enough that you can create your own unique style to write whatever you heart desires.">
+	<meta name="keywords"
+	      content={"guide,sherman's,sherman's circular gallifreyan,circular,numbers,read,write,alphabet," + DOCTOR_WHO_KEYWORDS}>
 </svelte:head>
 
 <HelpOverlay/>
