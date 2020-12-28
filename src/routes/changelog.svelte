@@ -1,5 +1,6 @@
 <script>
 	import {currentPage, Page} from "../stores";
+	import {DOCTOR_WHO_KEYWORDS} from "../global";
 	import {changelog, Type, TypeMap, TypeTextMap} from "../changelog";
 
 	currentPage.set(Page.CHANGELOG);
@@ -25,6 +26,7 @@
 	<title>List of changes to gallifreyan.info</title>
 	<meta name="description"
 	      content="Find out what is being done to update gallifreyan.info. Any changes will be recorded here. You can also take a look at more detailed changes on github.">
+	<meta name="keywords" content={"," + DOCTOR_WHO_KEYWORDS}>
 </svelte:head>
 
 <div class="uk-container uk-container-xsmall">

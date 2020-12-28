@@ -1,7 +1,7 @@
 <script>
 	import {currentPage, Page} from "../stores";
 	import Image from "../components/Image.svelte";
-	import {LANGUAGE, LANGUAGE_NAME_MAP} from "../global";
+	import {DOCTOR_WHO_KEYWORDS, LANGUAGE, LANGUAGE_NAME_MAP} from "../global";
 
 	currentPage.set(Page.ABOUT_ME);
 
@@ -14,6 +14,8 @@
 	<title>About Me</title>
 	<meta name="description"
 	      content="Find out a bit about the person behind gallifreyan.info.">
+	<meta name="keywords"
+	      content={"about,author,acquaintance,me," + DOCTOR_WHO_KEYWORDS}>
 </svelte:head>
 
 <h1>About me</h1>

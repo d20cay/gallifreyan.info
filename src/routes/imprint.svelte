@@ -1,5 +1,6 @@
 <script>
 	import {currentPage, Page} from "../stores";
+	import {DOCTOR_WHO_KEYWORDS} from "../global";
 
 	currentPage.set(Page.IMPRINT);
 </script>
@@ -8,6 +9,8 @@
 	<title>Imprint</title>
 	<meta name="description"
 	      content="This page details where the information on gallifreyan.info comes from and who is liable for its distribution.">
+	<meta name="keywords"
+	      content={"imprint,transparency,author,liability,legal," + DOCTOR_WHO_KEYWORDS}>
 </svelte:head>
 
 
