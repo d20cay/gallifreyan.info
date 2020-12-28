@@ -9,6 +9,8 @@
 
 <svelte:head>
 	<title>Gallifreyan Guides Overview</title>
+	<meta name="description"
+	      content="Did you notice the stylistic writing inside the Tardis on an Episode of Doctor Who and you would like to know whether they're a real language? You've come to the right place. This website will answer that question and teach you how to actually use the so-called Gallifreyan language.">
 </svelte:head>
 
 <div class="uk-container uk-container-small uk-margin">

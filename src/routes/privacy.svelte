@@ -7,6 +7,8 @@
 
 <svelte:head>
 	<title>Privacy Policy</title>
+	<meta name="description"
+	      content="This page lists privacy related services that are in operation on gallifreyan.info.">
 </svelte:head>
 
 

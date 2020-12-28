@@ -12,6 +12,8 @@
 
 <svelte:head>
 	<title>Download Gallifreyan Guides</title>
+	<meta name="description"
+	      content="Download all of the guides to the different Gallifreyan dialects to study and master the art of writing Gallifreyan.">
 </svelte:head>
 
 <h1>Download Resources</h1>

@@ -6,6 +6,8 @@
 
 <svelte:head>
 	<title>Imprint</title>
+	<meta name="description"
+	      content="This page details where the information on gallifreyan.info comes from and who is liable for its distribution.">
 </svelte:head>
 
 

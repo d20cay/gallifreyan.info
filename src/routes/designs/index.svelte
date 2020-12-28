@@ -20,6 +20,8 @@
 
 <svelte:head>
 	<title>My Gallifreyan Designs</title>
+	<meta name="description"
+	      content="Since I've discovered Doctor Who and the Galifreyan scripts I have spent a lot of time producing designs for customers and myself. Take a look at some of my designs on this page.">
 </svelte:head>
 
 <h1>Gallifreyan Designs</h1>

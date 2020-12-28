@@ -12,6 +12,8 @@
 
 <svelte:head>
 	<title>About Me</title>
+	<meta name="description"
+	      content="Find out a bit about the person behind gallifreyan.info.">
 </svelte:head>
 
 <h1>About me</h1>

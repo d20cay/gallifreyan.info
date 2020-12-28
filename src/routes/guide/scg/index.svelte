@@ -33,6 +33,8 @@
 
 <svelte:head>
 	<title>{lang} Guide</title>
+	<meta name="description"
+	      content="{lang} is the most popular Gallifreyan dialect. This page will teach you everything you need to know to write your first word or sentence. It contains all of the basics and elaborates far enough that you can create your own unique style to write whatever you heart desires.">
 </svelte:head>
 
 <HelpOverlay/>

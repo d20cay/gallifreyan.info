@@ -10,19 +10,21 @@
 </script>
 
 <style>
-	.table-small th,
-	.table-small td {
-		padding: 3px 5px;
-	}
+    .table-small th,
+    .table-small td {
+        padding: 3px 5px;
+    }
 
-	/** Changes the mouse cursor into a point (hand) when hovering over objects with this class. */
-	.pointer-cursor:hover {
-		cursor: pointer;
-	}
+    /** Changes the mouse cursor into a point (hand) when hovering over objects with this class. */
+    .pointer-cursor:hover {
+        cursor: pointer;
+    }
 </style>
 
 <svelte:head>
 	<title>List of changes to gallifreyan.info</title>
+	<meta name="description"
+	      content="Find out what is being done to update gallifreyan.info. Any changes will be recorded here. You can also take a look at more detailed changes on github.">
 </svelte:head>
 
 <div class="uk-container uk-container-xsmall">
