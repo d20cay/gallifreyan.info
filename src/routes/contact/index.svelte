@@ -6,7 +6,8 @@
 
 	function readableDate(date) {
 		const year = date.getUTCFullYear();
-		const month = date.getUTCMonth();
+		// Months start at 0 so they have to be incremented by 1 to be correct.
+		const month = date.getUTCMonth() + 1;
 		const day = date.getUTCDate();
 		return `${year}-${month}-${day}`;
 	}

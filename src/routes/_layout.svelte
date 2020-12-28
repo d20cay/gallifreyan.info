@@ -21,7 +21,7 @@
 	<slot></slot>
 </main>
 
-{#if currentPageValue !== Page.UNKNOWN && currentPageValue !== Page.HOME}
+{#if currentPageValue !== Page.UNKNOWN}
 	<Footer/>
 {/if}
 

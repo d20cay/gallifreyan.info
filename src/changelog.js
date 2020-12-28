@@ -25,6 +25,48 @@ export const TypeTextMap = new Map([
 
 export const changelog = [
 	{
+		date: '2020-12-28',
+		version: '1.2.1',
+		changes: [
+			{
+				text: 'Footer visibility to show up on landing page too.',
+				type: Type.CHANGED
+			},
+			{
+				text: 'Footer to show links to external guides without having to open accordion.',
+				type: Type.CHANGED
+			},
+			{
+				text: 'Some spacing mistakes leftover from the conversion to sapper.',
+				type: Type.FIXED
+			},
+			{
+				text: 'crosslinks between pages to build a more close-knit net.',
+				type: Type.CHANGED
+			},
+			{
+				text: 'Gallifreyan discord link to footer.',
+				type: Type.ADDED
+			},
+			{
+				text: 'Month in translation feedback.',
+				type: Type.FIXED
+			},
+			{
+				text: 'Title of SCG guide to reflect a Guide or How-To.',
+				type: Type.CHANGED
+			},
+			{
+				text: 'More specificity to SCG intro.',
+				type: Type.ADDED
+			},
+			{
+				text: 'A lot more consistency and specificity overall by specifying what type of Gallifreyan and referring to the exact language name instead of just using Gallifreyan generally. This change also includes adding more specific and consistent alt and caption texts for images.',
+				type: Type.ADDED
+			},
+		]
+	},
+	{
 		date: '2020-12-22',
 		version: '1.2.0',
 		changes: [
