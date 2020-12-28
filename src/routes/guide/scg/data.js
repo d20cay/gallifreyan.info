@@ -164,3 +164,193 @@ export const numbers = {
 		lang: LANGUAGE.SCG
 	},
 }
+
+export const howToStructuredData = `
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Write Sherman's Circular Gallifreyan",
+  "description": "This quick guide will focus on writing the word 'Who' from the show 'Doctor Who' to simplify matters. To learn how to write Sherman's Circular Gallifreyan for any word, visit https://gallifreyan.info/guide/scg. We go through a few examples and you can also send a message if you're having trouble.",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "minValue": "0",
+    "maxValue": "50"
+  },
+  "totalTime": "PT60M",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Computer"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Graphics Program"
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToSection",
+      "name": "Preparation",
+      "position": "1",
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": "1",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "position": "1",
+              "text": "Open your graphics program."
+            },
+            {
+              "@type": "HowToTip",
+              "position": "2",
+              "text": "Some popular programs are PhotoShop (monthly subscription), Affinity Designer (one-time payment 50USD) or Inkscape (free)."
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": "2",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "position": "1",
+              "text": "Figure out what to write."
+            },
+            {
+              "@type": "HowToTip",
+              "position": "2",
+              "text": "Choose something simple for your first time. A single word is probably best."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Write Gallifreyan",
+      "position": "2",
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "position": "1",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "position": "1",
+              "duringMedia": "img/guide/scg/words/cricle.scg",
+              "text": "Add a circle with a border and no fill."
+            },
+            {
+              "@type": "HowToTip",
+              "position": "2",
+              "text": "This circle is going to be the basis for any letters you want to add to your word. It's called the 'word-circle'."
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": "2",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "position": "1",
+              "duringMedia": "img/howto/scg/w-stem.scg",
+              "text": "Pull up the consonant table for Sherman's Circular Gallifreyan."
+            },
+            {
+              "@type": "HowToTip",
+              "position": "2",
+              "text": "You can find the table of consonants at https://gallifreyan.info/guide/scg in figure 2."
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": "3",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "position": "1",
+              "duringMedia": "img/howto/scg/w-stem.scg",
+              "text": "Add the consonant stem at the bottom of the circle for the letter 'w'."
+            },
+            {
+              "@type": "HowToTip",
+              "position": "2",
+              "text": "The decoration doesn't have to touch the consonant stem. It just has to clearly belong to that stem once you're done with the whole word."
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": "4",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "position": "1",
+              "duringMedia": "img/guide/scg/words/who/w.scg",
+              "text": "Add the decoration, if the letter requires it, to transform the stem into the actual letter."
+            },
+            {
+              "@type": "HowToTip",
+              "position": "2",
+              "text": "The decoration doesn't have to touch the consonant stem. It just has to clearly belong to that stem once you're done with the whole word."
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": "5",
+          "itemListElement": [
+            {
+              "@type": "Add another ",
+              "position": "1",
+              "duringMedia": "img/guide/scg/words/who/wh2.scg",
+              "text": "Repeat the last two steps for any other consonants by adding new modifications around the word circle in counter-clockwise direction."
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": "6",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "position": "1",
+              "duringMedia": "img/guide/scg/letters/vowels.scg",
+              "text": "Pull up the vowels illustration for Sherman's Circular Gallifreyan."
+            },
+            {
+              "@type": "HowToTip",
+              "position": "2",
+              "text": "You can find the illustration at https://gallifreyan.info/guide/scg in figure 4."
+            }
+          ]
+        },
+        {
+          "@type": "HowToStep",
+          "position": "7",
+          "itemListElement": [
+            {
+              "@type": "HowToDirection",
+              "position": "1",
+              "duringMedia": "img/guide/scg/words/who/who2.scg",
+              "text": "Add the vowel."
+            },
+            {
+              "@type": "HowToTip",
+              "position": "2",
+              "text": "You can either use the vowel in a way that attaches it to the previous consonant or it live on its own."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+`
