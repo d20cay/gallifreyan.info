@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-	<title>Gallifreyan Designs</title>
+	<title>My Gallifreyan Designs</title>
 </svelte:head>
 
 <h1>Gallifreyan Designs</h1>

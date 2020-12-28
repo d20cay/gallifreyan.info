@@ -21,6 +21,10 @@
 	}
 </style>
 
+<svelte:head>
+	<title>List of changes to gallifreyan.info</title>
+</svelte:head>
+
 <div class="uk-container uk-container-xsmall">
 	<h1 class="uk-text-center">Changelog</h1>
 

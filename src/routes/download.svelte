@@ -11,7 +11,7 @@
 </style>
 
 <svelte:head>
-	<title>Download Resources</title>
+	<title>Download Gallifreyan Guides</title>
 </svelte:head>
 
 <h1>Download Resources</h1>

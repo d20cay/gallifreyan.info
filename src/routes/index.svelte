@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Gallifreyan Guide</title>
+	<title>Gallifreyan Guides Overview</title>
 </svelte:head>
 
 <div class="uk-container uk-container-small uk-margin">
