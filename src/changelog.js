@@ -26,6 +26,28 @@ export const TypeTextMap = new Map([
 export const changelog = [
 	{
 		date: '2020-12-28',
+		version: '1.2.2',
+		changes: [
+			{
+				text: 'Author through meta tag on each page.',
+				type: Type.ADDED
+			},
+			{
+				text: 'Keywords through meta tag on each page.',
+				type: Type.ADDED
+			},
+			{
+				text: 'Description through meta tag on each page.',
+				type: Type.ADDED
+			},
+			{
+				text: 'Page titles in <title> tag to be more descriptive where needed.',
+				type: Type.CHANGED
+			},
+		]
+	},
+	{
+		date: '2020-12-28',
 		version: '1.2.1',
 		changes: [
 			{
