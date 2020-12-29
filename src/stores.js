@@ -11,7 +11,8 @@ export const Page = {
 	CHANGELOG: 7,
 	IMPRINT: 8,
 	PRIVACY: 9,
-	STRUCTURE: 10
+	STRUCTURE: 10,
+	NOT_FOUND: 11
 };
 
 export const currentPage = writable(Page.UNKNOWN);
