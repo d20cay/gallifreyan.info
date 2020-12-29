@@ -1,4 +1,5 @@
 <script>
+	import SiteStructure from "../components/SiteStructure.svelte";
 	export let status;
 	export let error;
 
@@ -34,6 +35,9 @@
 <h1>{status}</h1>
 
 <p>{error.message}</p>
+
+<h2>gallifreyan.info Pages</h2>
+<SiteStructure/>
 
 {#if dev && error.stack}
 	<pre>{error.stack}</pre>

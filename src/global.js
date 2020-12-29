@@ -10,7 +10,8 @@ export const PageName = new Map([
 	[Page.HOME, "Gallifreyan Guides Overview"],
 	[Page.CHANGELOG, "gallifreyan.info Changelog"],
 	[Page.IMPRINT, "Imprint"],
-	[Page.PRIVACY, "Privacy Policy"]
+	[Page.PRIVACY, "Privacy Policy"],
+	[Page.STRUCTURE, "gallifreyan.info Structure"]
 ]);
 
 export const guidePages = [Page.SCG];

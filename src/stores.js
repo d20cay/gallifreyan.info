@@ -10,7 +10,8 @@ export const Page = {
 	HOME: 6,
 	CHANGELOG: 7,
 	IMPRINT: 8,
-	PRIVACY: 9
+	PRIVACY: 9,
+	STRUCTURE: 10
 };
 
 export const currentPage = writable(Page.UNKNOWN);

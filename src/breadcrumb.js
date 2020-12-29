@@ -113,8 +113,25 @@ export const scgGuideBreadcrumb = `
     },
     {
       "@type": "ListItem",
-      "position": 1,
+      "position": 2,
       "name": "Sherman's Circular Gallifreyan Guide",
+      "item": "https://gallifreyan.info/guide/scg/"
+    }
+  ]
+}
+</script>
+`
+
+export const structureBreadcrumb = `
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "gallifreyan.info Structure",
       "item": "https://gallifreyan.info/guide/scg/"
     }
   ]
