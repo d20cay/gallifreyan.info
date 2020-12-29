@@ -172,11 +172,19 @@ export const howToStructuredData = `
   "@type": "HowTo",
   "name": "Write Sherman's Circular Gallifreyan",
   "description": "This quick guide will focus on writing the word 'Who' from the show 'Doctor Who' to simplify matters. To learn how to write Sherman's Circular Gallifreyan for any word, visit https://gallifreyan.info/guide/scg. We go through a few examples and you can also send a message if you're having trouble.",
+  "supply": {
+    "@type": "HowToSupply",
+    "name": "Graphics Program",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": "0"
+    }
+  },
   "estimatedCost": {
     "@type": "MonetaryAmount",
     "currency": "USD",
-    "minValue": "0",
-    "maxValue": "50"
+    "value": "0"
   },
   "totalTime": "PT60M",
   "tool": [
@@ -198,6 +206,7 @@ export const howToStructuredData = `
         {
           "@type": "HowToStep",
           "position": "1",
+          "name": "Environment",
           "itemListElement": [
             {
               "@type": "HowToDirection",
@@ -214,6 +223,8 @@ export const howToStructuredData = `
         {
           "@type": "HowToStep",
           "position": "2",
+          "name": "Content",
+          "url": "https://gallifreyan.info/designs/",
           "itemListElement": [
             {
               "@type": "HowToDirection",
@@ -237,28 +248,34 @@ export const howToStructuredData = `
         {
           "@type": "HowToStep",
           "position": "1",
+          "name": "Word Foundation",
+          "image": "https://gallifreyan.info/img/guide/scg/words/circle.svg",
+          "url": "https://gallifreyan.info/guide/scg/",
           "itemListElement": [
             {
               "@type": "HowToDirection",
               "position": "1",
-              "duringMedia": "img/guide/scg/words/cricle.scg",
+              "duringMedia": "https://gallifreyan.info/img/guide/scg/words/circle.svg",
               "text": "Add a circle with a border and no fill."
             },
             {
               "@type": "HowToTip",
               "position": "2",
-              "text": "This circle is going to be the basis for any letters you want to add to your word. It's called the 'word-circle'."
+              "text": "This circle is going to be the foundation for any letters you want to add to your word. It's called the 'word-circle'."
             }
           ]
         },
         {
           "@type": "HowToStep",
           "position": "2",
+          "name": "Consonant Resources",
+          "image": "https://gallifreyan.info/img/guide/letters/consonants.svg",
+          "url": "https://gallifreyan.info/guide/scg/",
           "itemListElement": [
             {
               "@type": "HowToDirection",
               "position": "1",
-              "duringMedia": "img/howto/scg/w-stem.scg",
+              "duringMedia": "https://gallifreyan.info/img/guide/letters/consonants.svg",
               "text": "Pull up the consonant table for Sherman's Circular Gallifreyan."
             },
             {
@@ -271,11 +288,14 @@ export const howToStructuredData = `
         {
           "@type": "HowToStep",
           "position": "3",
+          "name": "Consonant Stem",
+          "image": "https://gallifreyan.info/img/howto/scg/w-stem.svg",
+          "url": "https://gallifreyan.info/guide/scg/",
           "itemListElement": [
             {
               "@type": "HowToDirection",
               "position": "1",
-              "duringMedia": "img/howto/scg/w-stem.scg",
+              "duringMedia": "https://gallifreyan.info/img/howto/scg/w-stem.svg",
               "text": "Add the consonant stem at the bottom of the circle for the letter 'w'."
             },
             {
@@ -288,11 +308,14 @@ export const howToStructuredData = `
         {
           "@type": "HowToStep",
           "position": "4",
+          "name": "Consonant",
+          "image": "https://gallifreyan.info/img/guide/scg/words/who/w.svg",
+          "url": "https://gallifreyan.info/guide/scg/",
           "itemListElement": [
             {
               "@type": "HowToDirection",
               "position": "1",
-              "duringMedia": "img/guide/scg/words/who/w.scg",
+              "duringMedia": "https://gallifreyan.info/img/guide/scg/words/who/w.svg",
               "text": "Add the decoration, if the letter requires it, to transform the stem into the actual letter."
             },
             {
@@ -305,11 +328,14 @@ export const howToStructuredData = `
         {
           "@type": "HowToStep",
           "position": "5",
+          "name": "Letter Direction",
+          "image": "https://gallifreyan.info/img/guide/scg/words/who/wh2.svg",
+          "url": "https://gallifreyan.info/guide/scg/",
           "itemListElement": [
             {
-              "@type": "Add another ",
+              "@type": "HowToDirection",
               "position": "1",
-              "duringMedia": "img/guide/scg/words/who/wh2.scg",
+              "duringMedia": "https://gallifreyan.info/img/guide/scg/words/who/wh2.svg",
               "text": "Repeat the last two steps for any other consonants by adding new modifications around the word circle in counter-clockwise direction."
             }
           ]
@@ -317,11 +343,14 @@ export const howToStructuredData = `
         {
           "@type": "HowToStep",
           "position": "6",
+          "name": "Vowel Resources",
+          "image": "https://gallifreyan.info/img/guide/scg/letters/vowels.svg",
+          "url": "https://gallifreyan.info/guide/scg/",
           "itemListElement": [
             {
               "@type": "HowToDirection",
               "position": "1",
-              "duringMedia": "img/guide/scg/letters/vowels.scg",
+              "duringMedia": "https://gallifreyan.info/img/guide/scg/letters/vowels.svg",
               "text": "Pull up the vowels illustration for Sherman's Circular Gallifreyan."
             },
             {
@@ -334,11 +363,14 @@ export const howToStructuredData = `
         {
           "@type": "HowToStep",
           "position": "7",
+          "name": "Vowel",
+          "image": "https://gallifreyan.info/img/guide/scg/words/who/who2.svg",
+          "url": "https://gallifreyan.info/guide/scg/",
           "itemListElement": [
             {
               "@type": "HowToDirection",
               "position": "1",
-              "duringMedia": "img/guide/scg/words/who/who2.scg",
+              "duringMedia": "https://gallifreyan.info/img/guide/scg/words/who/who2.svg",
               "text": "Add the vowel."
             },
             {
