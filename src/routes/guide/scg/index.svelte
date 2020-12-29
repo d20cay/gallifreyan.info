@@ -9,9 +9,10 @@
 		wordParts
 	} from "./data";
 	import {currentPage, Page} from "../../../stores";
+	import {DOCTOR_WHO_KEYWORDS, LANGUAGE, LANGUAGE_NAME_MAP} from "../../../global";
+	import {scgGuideBreadcrumb} from "../../../breadcrumb";
 	import Image from "../../../components/Image.svelte";
 	import HelpOverlay from "../../../components/HelpOverlay.svelte";
-	import {DOCTOR_WHO_KEYWORDS, LANGUAGE, LANGUAGE_NAME_MAP} from "../../../global";
 
 	currentPage.set(Page.SCG);
 
@@ -45,6 +46,7 @@
 	<meta name="keywords"
 	      content={"guide,sherman's,sherman's circular gallifreyan,circular,numbers,read,write,alphabet," + DOCTOR_WHO_KEYWORDS}>
 	{@html howToStructuredData}
+	{@html scgGuideBreadcrumb}
 </svelte:head>
 
 <HelpOverlay/>

@@ -1,6 +1,7 @@
 <script>
 	import {currentPage, Page} from "../../stores";
 	import {DOCTOR_WHO_KEYWORDS} from "../../global";
+	import {contactBreadcrumb} from "../../breadcrumb";
 	import {comments} from "./data";
 
 	currentPage.set(Page.CONTACT);
@@ -41,6 +42,7 @@
 	      content="Hi, my name is d20cay and I'm the author of gallifreyan.info. Do you have any questions or would you like me to write something in Gallifreyan? Send me a message through this form.">
 	<meta name="keywords"
 	      content={"contact,d20cay,email,message,notification,get translation,translation,help,bug,feature request,feature," + DOCTOR_WHO_KEYWORDS}>
+	{@html contactBreadcrumb}
 </svelte:head>
 
 <h1>Contact Me</h1>

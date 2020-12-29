@@ -1,6 +1,7 @@
 <script>
 	import {currentPage, Page} from "../stores";
 	import {DOCTOR_WHO_KEYWORDS} from "../global";
+	import {downloadBreadcrumb} from "../breadcrumb";
 
 	currentPage.set(Page.DOWNLOAD);
 </script>
@@ -17,6 +18,7 @@
 	      content="Download all of the guides to the different Gallifreyan dialects to study and master the art of writing Gallifreyan.">
 	<meta name="keywords"
 	      content={"download,files,pdf,extra,guide,offline,study,learn,master," + DOCTOR_WHO_KEYWORDS}>
+	{@html downloadBreadcrumb}
 </svelte:head>
 
 <h1>Download Resources</h1>

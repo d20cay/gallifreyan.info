@@ -1,5 +1,6 @@
 <script>
 	import {currentPage, Page} from "../stores";
+	import {aboutBreadcrumb} from "../breadcrumb";
 	import Image from "../components/Image.svelte";
 	import {DOCTOR_WHO_KEYWORDS, LANGUAGE, LANGUAGE_NAME_MAP} from "../global";
 
@@ -12,10 +13,9 @@
 
 <svelte:head>
 	<title>About Me</title>
-	<meta name="description"
-	      content="Find out a bit about the person behind gallifreyan.info.">
-	<meta name="keywords"
-	      content={"about,author,acquaintance,me," + DOCTOR_WHO_KEYWORDS}>
+	<meta name="description" content="Find out a bit about the person behind gallifreyan.info.">
+	<meta name="keywords" content={"about,author,acquaintance,me," + DOCTOR_WHO_KEYWORDS}>
+	{@html aboutBreadcrumb}
 </svelte:head>
 
 <h1>About me</h1>
