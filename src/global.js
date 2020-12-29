@@ -1,5 +1,18 @@
 import {Page} from "./stores";
 
+export const PageName = new Map([
+	[Page.UNKNOWN, "Unknown"],
+	[Page.DOWNLOAD, "Download Resources"],
+	[Page.DESIGNS, "My Gallifreyan Designs"],
+	[Page.SCG, "Sherman's Circular Gallifreyan Guide"],
+	[Page.ABOUT_ME, "About Me"],
+	[Page.CONTACT, "Contact Me"],
+	[Page.HOME, "Gallifreyan Guides Overview"],
+	[Page.CHANGELOG, "gallifreyan.info Changelog"],
+	[Page.IMPRINT, "Imprint"],
+	[Page.PRIVACY, "Privacy Policy"]
+]);
+
 export const guidePages = [Page.SCG];
 
 export const LANGUAGE = {

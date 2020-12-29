@@ -1,6 +1,6 @@
 <script>
 	import {currentPage, Page} from "../../stores";
-	import {DOCTOR_WHO_KEYWORDS, LANGUAGE_NAME_MAP} from "../../global";
+	import {DOCTOR_WHO_KEYWORDS, LANGUAGE_NAME_MAP, PageName} from "../../global";
 	import {designsBreadcrumb} from "../../breadcrumb";
 	import {commissionDesigns, personalDesigns} from "./data";
 	import Image from "../../components/Image.svelte";
@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-	<title>My Gallifreyan Designs</title>
+	<title>{PageName.get($currentPage)}</title>
 	<meta name="description"
 	      content="Since I've discovered Doctor Who and the Galifreyan scripts I have spent a lot of time producing designs for customers and myself. Take a look at some of my designs on this page.">
 	<meta name="keywords"
@@ -28,7 +28,7 @@
 	{@html designsBreadcrumb}
 </svelte:head>
 
-<h1>Gallifreyan Designs</h1>
+<h1>{PageName.get($currentPage)}</h1>
 
 <p>On this page you'll find the designs I've made, for <a href="contact/">clients</a> and for my
 	personal use.</p>

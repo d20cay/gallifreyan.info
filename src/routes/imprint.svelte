@@ -1,12 +1,12 @@
 <script>
 	import {currentPage, Page} from "../stores";
-	import {DOCTOR_WHO_KEYWORDS} from "../global";
+	import {DOCTOR_WHO_KEYWORDS, PageName} from "../global";
 
 	currentPage.set(Page.IMPRINT);
 </script>
 
 <svelte:head>
-	<title>Imprint</title>
+	<title>{PageName.get($currentPage)}</title>
 	<meta name="description"
 	      content="This page details where the information on gallifreyan.info comes from and who is liable for its distribution.">
 	<meta name="keywords"
@@ -15,7 +15,7 @@
 
 
 <div class="uk-container uk-container-small uk-margin">
-	<h1>Imprint</h1>
+	<h1>{PageName.get($currentPage)}</h1>
 
 	<h2>Contact Information</h2>
 	Email: d20cayt[at]gmail.com

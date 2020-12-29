@@ -1,6 +1,6 @@
 <script>
 	import {currentPage, Page} from "../stores";
-	import {DOCTOR_WHO_KEYWORDS} from "../global";
+	import {DOCTOR_WHO_KEYWORDS, PageName} from "../global";
 	import {downloadBreadcrumb} from "../breadcrumb";
 
 	currentPage.set(Page.DOWNLOAD);
@@ -13,7 +13,7 @@
 </style>
 
 <svelte:head>
-	<title>Download Gallifreyan Guides</title>
+	<title>{PageName.get($currentPage)}</title>
 	<meta name="description"
 	      content="Download all of the guides to the different Gallifreyan dialects to study and master the art of writing Gallifreyan.">
 	<meta name="keywords"
@@ -21,7 +21,7 @@
 	{@html downloadBreadcrumb}
 </svelte:head>
 
-<h1>Download Resources</h1>
+<h1>{PageName.get($currentPage)}</h1>
 
 <p>Download the guides and possibly additional documents to learn and write offline.</p>
 
