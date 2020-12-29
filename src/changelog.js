@@ -25,6 +25,32 @@ export const TypeTextMap = new Map([
 
 export const changelog = [
 	{
+		date: '2020-12-29',
+		version: '1.2.3',
+		changes: [
+			{
+				text: 'Structured data markup to SCG guide.',
+				type: Type.ADDED
+			},
+			{
+				text: 'Invisible breadcrumbs in structured data markup for SEO.',
+				type: Type.ADDED
+			},
+			{
+				text: 'More consistency in page names.',
+				type: Type.ADDED
+			},
+			{
+				text: 'Error page to include navbar and structure of pages.',
+				type: Type.CHANGED
+			},
+			{
+				text: 'Structure page with [well] a structure of all pages.',
+				type: Type.ADDED
+			},
+		]
+	},
+	{
 		date: '2020-12-28',
 		version: '1.2.2',
 		changes: [
