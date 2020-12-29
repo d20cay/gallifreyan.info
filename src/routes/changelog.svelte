@@ -1,6 +1,7 @@
 <script>
 	import {currentPage, Page} from "../stores";
-	import {DOCTOR_WHO_KEYWORDS} from "../global";
+	import {DOCTOR_WHO_KEYWORDS, PageName} from "../global";
+	import {changelogBreadcrumb} from "../breadcrumb";
 	import {changelog, Type, TypeMap, TypeTextMap} from "../changelog";
 
 	currentPage.set(Page.CHANGELOG);
@@ -23,14 +24,15 @@
 </style>
 
 <svelte:head>
-	<title>List of changes to gallifreyan.info</title>
+	<title>{PageName.get($currentPage)}</title>
 	<meta name="description"
 	      content="Find out what is being done to update gallifreyan.info. Any changes will be recorded here. You can also take a look at more detailed changes on github.">
 	<meta name="keywords" content={"," + DOCTOR_WHO_KEYWORDS}>
+	{@html changelogBreadcrumb}
 </svelte:head>
 
 <div class="uk-container uk-container-xsmall">
-	<h1 class="uk-text-center">Changelog</h1>
+	<h1>{PageName.get($currentPage)}</h1>
 
 	{#each changelog as changeday}
 		<h2 class="uk-margin-small-bottom">

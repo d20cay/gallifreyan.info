@@ -1,7 +1,8 @@
 <script>
 	import {currentPage, Page} from "../stores";
+	import {DOCTOR_WHO_KEYWORDS, LANGUAGE, LANGUAGE_NAME_MAP, PageName} from "../global";
+	import {aboutBreadcrumb} from "../breadcrumb";
 	import Image from "../components/Image.svelte";
-	import {DOCTOR_WHO_KEYWORDS, LANGUAGE, LANGUAGE_NAME_MAP} from "../global";
 
 	currentPage.set(Page.ABOUT_ME);
 
@@ -11,14 +12,13 @@
 </script>
 
 <svelte:head>
-	<title>About Me</title>
-	<meta name="description"
-	      content="Find out a bit about the person behind gallifreyan.info.">
-	<meta name="keywords"
-	      content={"about,author,acquaintance,me," + DOCTOR_WHO_KEYWORDS}>
+	<title>{PageName.get($currentPage)}</title>
+	<meta name="description" content="Find out a bit about the person behind gallifreyan.info.">
+	<meta name="keywords" content={"about,author,acquaintance,me," + DOCTOR_WHO_KEYWORDS}>
+	{@html aboutBreadcrumb}
 </svelte:head>
 
-<h1>About me</h1>
+<h1>{PageName.get($currentPage)}</h1>
 <p>
 	My name is d20cay and I love Doctor Who, probably more than anything yet, well except my best
 	friends of course. Since I'm currently doing an apprenticeship as a software engineer, I thought

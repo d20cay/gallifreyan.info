@@ -1,10 +1,18 @@
 <script>
 	import {onMount} from "svelte";
-	import {doubleLetters, andVariations, numbers, sentences, wordParts} from "./data";
+	import {
+		doubleLetters,
+		andVariations,
+		howToStructuredData,
+		numbers,
+		sentences,
+		wordParts
+	} from "./data";
 	import {currentPage, Page} from "../../../stores";
+	import {DOCTOR_WHO_KEYWORDS, LANGUAGE, LANGUAGE_NAME_MAP, PageName} from "../../../global";
+	import {scgGuideBreadcrumb} from "../../../breadcrumb";
 	import Image from "../../../components/Image.svelte";
 	import HelpOverlay from "../../../components/HelpOverlay.svelte";
-	import {DOCTOR_WHO_KEYWORDS, LANGUAGE, LANGUAGE_NAME_MAP} from "../../../global";
 
 	currentPage.set(Page.SCG);
 
@@ -32,18 +40,18 @@
 </script>
 
 <svelte:head>
-	<title>{lang} Guide</title>
+	<title>{PageName.get($currentPage)}</title>
 	<meta name="description"
 	      content="{lang} is the most popular Gallifreyan dialect. This page will teach you everything you need to know to write your first word or sentence. It contains all of the basics and elaborates far enough that you can create your own unique style to write whatever you heart desires.">
 	<meta name="keywords"
 	      content={"guide,sherman's,sherman's circular gallifreyan,circular,numbers,read,write,alphabet," + DOCTOR_WHO_KEYWORDS}>
+	{@html howToStructuredData}
+	{@html scgGuideBreadcrumb}
 </svelte:head>
 
 <HelpOverlay/>
 
-<h1>
-	How to write {lang}
-</h1>
+<h1>How to write {lang}</h1>
 
 <div class="uk-grid">
 	<div class="uk-width-4-5@l uk-width-3-4@m uk-width-1-2@s">
