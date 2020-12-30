@@ -11,7 +11,7 @@
 			popular Gallifreyan script.
 		</p>
 		<div class="uk-margin">
-			<a href="guide/scg" class="uk-button uk-button-default uk-border-rounded">Learn More</a>
+			<a href="guide/scg" class="uk-button uk-button-primary uk-border-rounded">Learn More</a>
 		</div>
 	</div>
 	<div class="uk-card-media-bottom uk-padding-small">

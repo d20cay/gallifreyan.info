@@ -5,7 +5,7 @@ export const PageName = new Map([
 	[Page.DOWNLOAD, "Download Resources"],
 	[Page.DESIGNS, "My Gallifreyan Designs"],
 	[Page.SCG, "Sherman's Circular Gallifreyan Guide"],
-	[Page.ABOUT_ME, "About Me"],
+	[Page.ABOUT_ME, "About"],
 	[Page.CONTACT, "Contact Me"],
 	[Page.HOME, "Gallifreyan Guides Overview"],
 	[Page.CHANGELOG, "gallifreyan.info Changelog"],

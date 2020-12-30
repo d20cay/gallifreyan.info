@@ -2,7 +2,7 @@
 
 This repository contains the code for the gallifreyan.info domain.
 
-Version: 1.2.3
+Version: 1.2.4
 
 ## Current structure:
 

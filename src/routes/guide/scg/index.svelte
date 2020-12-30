@@ -687,7 +687,7 @@
 		I can practice?
 	</dt>
 	<dd>
-		I sure do. Just head on over to <a href="designs/">gallifreyan.info/designs</a> and take a
+		I sure do. Just head on over to <a href="designs/">gallifreyan.info/designs/</a> and take a
 		look at those. Don't look at the page and try to blindly click on an image. It will enlarge
 		the image and hide the caption. Now you can try to read what it says and look at the caption
 		once you think you have the right answer. If you are ready to start writing Gallifreyan,

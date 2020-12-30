@@ -8,7 +8,7 @@
 		<a href="/">{PageName.get(Page.HOME)}</a>
 	</li>
 	<li>
-		<a href="about-me/">{PageName.get(Page.ABOUT_ME)}</a>
+		<a href="about/">{PageName.get(Page.ABOUT_ME)}</a>
 	</li>
 	<li>
 		<a href="changelog/">{PageName.get(Page.CHANGELOG)}</a>

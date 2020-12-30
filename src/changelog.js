@@ -25,6 +25,44 @@ export const TypeTextMap = new Map([
 
 export const changelog = [
 	{
+		date: '2020-12-30',
+		version: '1.2.4',
+		changes: [
+			{
+				text: 'Navbar to be more intuitive',
+				type: Type.CHANGED
+			},
+			{
+				text: 'About link to footer.',
+				type: Type.ADDED
+			},
+			{
+				text: 'About page route.',
+				type: Type.CHANGED
+			},
+			{
+				text: 'Publisher and goal information to about page.',
+				type: Type.ADDED
+			},
+			{
+				text: 'Inappropriate uses of <a> tags.',
+				type: Type.FIXED
+			},
+			{
+				text: 'Sitemap to use non-www prefix and https instead of http.',
+				type: Type.CHANGED
+			},
+			{
+				text: 'Links to all images used on every page (basically an image sitemap) to sitemap.',
+				type: Type.ADDED
+			},
+			{
+				text: 'Placeholders on Gallifreyan script overview to sound less like WIP texts and more like "help me" texts.',
+				type: Type.CHANGED
+			},
+		]
+	},
+	{
 		date: '2020-12-29',
 		version: '1.2.3',
 		changes: [
