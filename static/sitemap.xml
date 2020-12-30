@@ -2,55 +2,55 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.gallifreyan.info/</loc>
+        <loc>https://gallifreyan.info/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/about-me/</loc>
+        <loc>https://gallifreyan.info/about-me/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/changelog/</loc>
+        <loc>https://gallifreyan.info/changelog/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.1</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/contact/</loc>
+        <loc>https://gallifreyan.info/contact/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/designs/</loc>
+        <loc>https://gallifreyan.info/designs/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/download/</loc>
+        <loc>https://gallifreyan.info/download/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/guide/scg/</loc>
+        <loc>https://gallifreyan.info/guide/scg/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/imprint/</loc>
+        <loc>https://gallifreyan.info/imprint/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/privacy/</loc>
+        <loc>https://gallifreyan.info/privacy/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
