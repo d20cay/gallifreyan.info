@@ -2,55 +2,284 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://www.gallifreyan.info/</loc>
+        <loc>https://gallifreyan.info/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/home/scg_run_boy.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/home/coming_soon.svg</image:loc>
+        </image:image>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/about-me/</loc>
+        <loc>https://gallifreyan.info/about/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/about/come_along_pond.svg</image:loc>
+        </image:image>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/changelog/</loc>
+        <loc>https://gallifreyan.info/changelog/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.1</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/contact/</loc>
+        <loc>https://gallifreyan.info/contact/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/designs/</loc>
+        <loc>https://gallifreyan.info/designs/</loc>
+        <lastmod>2020-12-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/bad-wolf.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/bad-wolf-clockwork.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/deadpool.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/who-i-am.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/shannon.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/fear.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/star-destination.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/not-lost-wanderer.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/wish.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/bigger-inside.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/eternity-love.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/sunshine.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/equilibrium.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/commission/decide.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/trust-doctor.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/love.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/bowties.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/fear-hate.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/friends.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/madman.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/stories.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/yin-yang.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/clara.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/jodie-whittaker.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/mandip-gill.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/tosin-cole.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/bradley-walsh.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/graham-obrien.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/ryan-sinclair.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/yasmin-khan.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/sharon-clarke.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/tzim-sha.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/ghost-monument.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/rosa-parks.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/stenza.svg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://gallifreyan.info/download/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/download/</loc>
-        <lastmod>2020-12-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>http://www.gallifreyan.info/guide/scg/</loc>
+        <loc>https://gallifreyan.info/guide/scg/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1</priority>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/gallifreyan.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/letters/consonants.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/letters/stems.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/letters/vowels.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/letters/stems-vowels.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/d.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/o.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/do.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/c.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/doc.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/t.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/doct.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/o.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/docto.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/r.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/doctor/doctor.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/who/wh.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/who/w.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/who/h.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/who/wh2.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/who/o.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/who/who.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/who/who2.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/all.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/cool.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/and/and.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/and/&.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/sentences/bowties.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/sentences/bowties_sentence.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/sentences/punctuation/punctuation.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/sentences/punctuation/ive-right.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/sentences/punctuation/ive-wrong.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/designs/personal/fear-hate.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/numbers/1048.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/numbers/13.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://gallifreyan.info/img/guide/scg/test/everyones_important.svg</image:loc>
+        </image:image>
+
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/imprint/</loc>
+        <loc>https://gallifreyan.info/imprint/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
     </url>
     <url>
-        <loc>http://www.gallifreyan.info/privacy/</loc>
+        <loc>https://gallifreyan.info/privacy/</loc>
+        <lastmod>2020-12-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    <url>
+        <loc>https://gallifreyan.info/structure/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>

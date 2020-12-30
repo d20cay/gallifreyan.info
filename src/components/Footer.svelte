@@ -69,6 +69,9 @@
 			<a href="contact/">Contact</a>
 		</div>
 		<div>
+			<a href="about/">About</a>
+		</div>
+		<div>
 			<a href="changelog/">Changelog</a>
 		</div>
 		<div>
