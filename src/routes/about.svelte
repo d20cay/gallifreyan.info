@@ -30,7 +30,7 @@
 <h2>How I got into Gallifreyan</h2>
 <div uk-grid>
 	<div class="uk-width-1-4@l uk-width-1-3@m uk-width-1-1@s">
-		<Image src="img/about-me/come_along_pond.svg"
+		<Image src="img/about/come_along_pond.svg"
 		       alt={altFromDesc('Come along Pond', LANGUAGE.SCG)}
 		       desc="Come along Pond"/>
 	</div>

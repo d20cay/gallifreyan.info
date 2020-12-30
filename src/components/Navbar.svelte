@@ -9,7 +9,10 @@
 		<nav class="uk-navbar-container uk-margin" uk-navbar>
 			<div class="uk-navbar-left">
 				<a class="uk-navbar-item uk-logo" href="/">
-					<img data-src="img/global/favicon.svg" height="50" width="50" alt="Gallifreyan logo"
+					<img data-src="img/global/favicon.svg"
+					     height="50"
+					     width="50"
+					     alt="Gallifreyan logo"
 					     uk-img>
 				</a>
 
@@ -18,37 +21,29 @@
 						<a href="#">Guides <span uk-icon="chevron-down"></span></a>
 						<div class="uk-navbar-dropdown uk-width-auto">
 							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li class="uk-nav-header">Guides</li>
 								<li class:uk-active={currentPage === Page.SCG}>
 									<a href="guide/scg/">Sherman's Circular Gallifreyan</a>
 								</li>
-							</ul>
-						</div>
-					</li>
-					<li>
-						<a href="#">Resources <span uk-icon="chevron-down"></span></a>
-						<div class="uk-navbar-dropdown uk-width-auto">
-							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li class="uk-nav-divider"></li>
 								<li class:uk-active={currentPage === Page.DOWNLOAD}>
-									<a href="download/">Guide Download</a>
-								</li>
-								<li class:uk-active={currentPage === Page.DESIGNS}>
-									<a href="designs/">Designs</a>
+									<a href="download/">Downloads</a>
 								</li>
 							</ul>
 						</div>
 					</li>
-					<li>
-						<a href="#">Me <span uk-icon="chevron-down"></span></a>
-						<div class="uk-navbar-dropdown">
-							<ul class="uk-nav uk-navbar-dropdown-nav">
-								<li class:uk-active={currentPage === Page.ABOUT_ME}>
-									<a href="about-me/">About me</a>
-								</li>
-								<li class:uk-active={currentPage === Page.CONTACT}>
-									<a href="contact/">Contact</a>
-								</li>
-							</ul>
-						</div>
+					<li class:uk-active={currentPage === Page.DESIGNS}>
+						<a href="designs/">Designs</a>
+					</li>
+				</ul>
+			</div>
+			<div class="uk-navbar-right">
+				<ul class="uk-navbar-nav">
+					<li class:uk-active={currentPage === Page.CONTACT}>
+						<a href="contact/">
+							<span class="uk-margin-small-right" uk-icon="icon: mail"></span>
+							Contact me
+						</a>
 					</li>
 				</ul>
 			</div>
@@ -63,7 +58,8 @@
 				<button uk-toggle="target: #sidenav;"
 				        class="uk-button uk-button-text uk-navbar-toggle"
 				        type="button">
-					<span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+					<span uk-navbar-toggle-icon></span>
+					<span class="uk-margin-small-left">Menu</span>
 				</button>
 			</div>
 			<div class="uk-navbar-center">
@@ -102,7 +98,7 @@
 							<a>Me</a>
 							<ul class="uk-nav-sub">
 								<li class:uk-active={currentPage === Page.ABOUT_ME}>
-									<a href="about-me/">About me</a>
+									<a href="about/">About me</a>
 								</li>
 								<li class:uk-active={currentPage === Page.CONTACT}>
 									<a href="contact/">Contact</a>
