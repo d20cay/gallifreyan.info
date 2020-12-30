@@ -30,7 +30,7 @@
 
 <h1>{PageName.get($currentPage)}</h1>
 
-<p>On this page you'll find the designs I've made, for <a href="contact/">clients</a> and for my
+<p>On this page you'll find the designs I've made, for clients and for my
 	personal use.</p>
 
 <h2>Commissioned Designs</h2>
