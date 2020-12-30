@@ -63,6 +63,8 @@
 		understand and apply. This was the goal when I started and will hopefully stay that way
 		until I'm unable to entertain this website by my financial means. <br>
 		Secondarily I also hope get enough traction through this site that I can use the commissions
-		that people send me as a serious side hustle.
+		that people send me as a serious side hustle. If this page gets enough traction and gets
+		enough traffic at some point I would like to use the contact form to allow other Gallifreyan
+		artists to get more commissions.
 	</p>
 </div>
