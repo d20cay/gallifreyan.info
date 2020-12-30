@@ -81,29 +81,13 @@
 								<li class:uk-active={currentPage === Page.SCG}>
 									<a href="guide/scg/">Sherman's Circular Gallifreyan</a>
 								</li>
-							</ul>
-						</li>
-						<li class="uk-parent">
-							<a>Resources</a>
-							<ul class="uk-nav-sub">
 								<li class:uk-active={currentPage === Page.DOWNLOAD}>
-									<a href="download/">Guide Download</a>
-								</li>
-								<li class:uk-active={currentPage === Page.DESIGNS}>
-									<a href="designs/">Designs</a>
+									<a href="download/">Downloads</a>
 								</li>
 							</ul>
 						</li>
-						<li class="uk-parent">
-							<a>Me</a>
-							<ul class="uk-nav-sub">
-								<li class:uk-active={currentPage === Page.ABOUT_ME}>
-									<a href="about/">About me</a>
-								</li>
-								<li class:uk-active={currentPage === Page.CONTACT}>
-									<a href="contact/">Contact</a>
-								</li>
-							</ul>
+						<li class:uk-active={currentPage === Page.DESIGNS}>
+							<a href="designs/">Designs</a>
 						</li>
 						<li class="uk-nav-divider"></li>
 						<li class:uk-active={currentPage === Page.CONTACT}>
