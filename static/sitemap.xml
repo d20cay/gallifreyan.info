@@ -14,7 +14,7 @@
         </image:image>
     </url>
     <url>
-        <loc>https://gallifreyan.info/about-me/</loc>
+        <loc>https://gallifreyan.info/about/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -274,6 +274,12 @@
     </url>
     <url>
         <loc>https://gallifreyan.info/privacy/</loc>
+        <lastmod>2020-12-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    <url>
+        <loc>https://gallifreyan.info/structure/</loc>
         <lastmod>2020-12-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
