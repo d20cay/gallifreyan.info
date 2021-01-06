@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://gallifreyan.info/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
         <image:image>
@@ -15,7 +15,7 @@
     </url>
     <url>
         <loc>https://gallifreyan.info/about/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
         <image:image>
@@ -24,19 +24,19 @@
     </url>
     <url>
         <loc>https://gallifreyan.info/changelog/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.1</priority>
     </url>
     <url>
         <loc>https://gallifreyan.info/contact/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://gallifreyan.info/designs/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <image:image>
@@ -147,13 +147,13 @@
     </url>
     <url>
         <loc>https://gallifreyan.info/download/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://gallifreyan.info/guide/scg/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1</priority>
         <image:image>
@@ -268,19 +268,19 @@
     </url>
     <url>
         <loc>https://gallifreyan.info/imprint/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
     </url>
     <url>
         <loc>https://gallifreyan.info/privacy/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
     </url>
     <url>
         <loc>https://gallifreyan.info/structure/</loc>
-        <lastmod>2020-12-29</lastmod>
+        <lastmod>2020-12-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
     </url>
