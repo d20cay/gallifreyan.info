@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://gallifreyan.info/</loc>
         <lastmod>2020-12-30</lastmod>
@@ -235,7 +236,7 @@
             <image:loc>https://gallifreyan.info/img/guide/scg/words/and/and.svg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://gallifreyan.info/img/guide/scg/words/and/&.svg</image:loc>
+            <image:loc>https://gallifreyan.info/img/guide/scg/words/and/ampersand.svg</image:loc>
         </image:image>
         <image:image>
             <image:loc>https://gallifreyan.info/img/guide/scg/sentences/bowties.svg</image:loc>
