@@ -113,7 +113,7 @@ export const andVariations = {
 		lang: LANGUAGE.SCG
 	},
 	ampersand: {
-		src: 'img/guide/scg/words/and/&.svg',
+		src: 'img/guide/scg/words/and/ampersand.svg',
 		desc: '&',
 		lang: LANGUAGE.SCG
 	},
