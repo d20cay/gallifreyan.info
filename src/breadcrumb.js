@@ -109,7 +109,8 @@ export const scgGuideBreadcrumb = `
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Gallifreyan Guides"
+      "name": "Gallifreyan Guides",
+      "item": "https://gallifreyan.info/guide/"
     },
     {
       "@type": "ListItem",

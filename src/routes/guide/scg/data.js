@@ -207,6 +207,8 @@ export const howToStructuredData = `
           "@type": "HowToStep",
           "position": "1",
           "name": "Environment",
+          "image": "https://www.homeschoolspark.com/site/assets/files/1097/best-graphics-software-1.jpg",
+          "url": "http://gallifreyan.info/guide/scg/#faq",
           "itemListElement": [
             {
               "@type": "HowToDirection",
@@ -224,6 +226,7 @@ export const howToStructuredData = `
           "@type": "HowToStep",
           "position": "2",
           "name": "Content",
+          "image": "https://gallifreyan.info/img/designs/personal/love.svg",
           "url": "https://gallifreyan.info/designs/",
           "itemListElement": [
             {
