@@ -23,10 +23,10 @@
 		<a href="download/">{PageName.get(Page.DOWNLOAD)}</a>
 	</li>
 	<li>
-		Guides
+		<a href="guide/">Guides</a>
 		<ul class="uk-list">
 			<li>
-				<a href="guides/scg/">{PageName.get(Page.SCG)}</a>
+				<a href="guide/scg/">{PageName.get(Page.SCG)}</a>
 			</li>
 		</ul>
 	</li>
