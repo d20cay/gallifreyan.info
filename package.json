@@ -1,7 +1,7 @@
 {
   "name": "gallifreyan.info",
   "description": "Website to show off all of the different gallifreyan dialects.",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "scripts": {
     "dev": "sapper dev -p 4000",
     "build": "sapper build --legacy -p 4000",
