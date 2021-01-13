@@ -1,3 +1,5 @@
+import {PageName} from "./global";
+
 export const indexBreadcrumb = `
 <script type="application/ld+json">
 {
@@ -7,7 +9,7 @@ export const indexBreadcrumb = `
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Gallifreyan Script Overview",
+      "name": "${PageName.HOME}",
       "item": "https://gallifreyan.info/"
     }
   ]
@@ -24,8 +26,8 @@ export const aboutBreadcrumb = `
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "About Me",
-      "item": "https://gallifreyan.info/about-me/"
+      "name": "${PageName.ABOUT}",
+      "item": "https://gallifreyan.info/about/"
     }
   ]
 }
@@ -41,7 +43,7 @@ export const changelogBreadcrumb = `
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Changelog",
+      "name": "${PageName.CHANGELOG}",
       "item": "https://gallifreyan.info/changelog/"
     }
   ]
@@ -58,7 +60,7 @@ export const downloadBreadcrumb = `
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Download Resources",
+      "name": "${PageName.DOWNLOAD}",
       "item": "https://gallifreyan.info/download/"
     }
   ]
@@ -75,7 +77,7 @@ export const contactBreadcrumb = `
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Contact d20cay",
+      "name": "${PageName.CONTACT}",
       "item": "https://gallifreyan.info/contact/"
     }
   ]
@@ -92,7 +94,7 @@ export const designsBreadcrumb = `
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "My Gallifreyan Designs",
+      "name": "${PageName.DESIGNS}",
       "item": "https://gallifreyan.info/designs/"
     }
   ]
@@ -109,13 +111,13 @@ export const scgGuideBreadcrumb = `
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Gallifreyan Guides",
+      "name": "${PageName.GUIDES}",
       "item": "https://gallifreyan.info/guide/"
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Sherman's Circular Gallifreyan Guide",
+      "name": "${PageName.SCG}",
       "item": "https://gallifreyan.info/guide/scg/"
     }
   ]
@@ -132,7 +134,7 @@ export const structureBreadcrumb = `
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "gallifreyan.info Structure",
+      "name": "${PageName.STRUCTURE}",
       "item": "https://gallifreyan.info/guide/scg/"
     }
   ]

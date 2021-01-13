@@ -5,7 +5,7 @@ export const Page = {
 	DOWNLOAD: 1,
 	DESIGNS: 2,
 	SCG: 3,
-	ABOUT_ME: 4,
+	ABOUT: 4,
 	CONTACT: 5,
 	HOME: 6,
 	CHANGELOG: 7,
