@@ -4,7 +4,7 @@
 	import {aboutBreadcrumb} from "../breadcrumb";
 	import Image from "../components/Image.svelte";
 
-	currentPage.set(Page.ABOUT_ME);
+	currentPage.set(Page.ABOUT);
 
 	function altFromDesc(desc, lang) {
 		return `"${desc}" in ${LANGUAGE_NAME_MAP.get(lang)}`;
