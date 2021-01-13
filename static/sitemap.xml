@@ -25,7 +25,7 @@
     </url>
     <url>
         <loc>https://gallifreyan.info/changelog/</loc>
-        <lastmod>2020-12-30</lastmod>
+        <lastmod>2021-01-06</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.1</priority>
     </url>
@@ -153,8 +153,14 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://gallifreyan.info/guide/</loc>
+        <lastmod>2021-01-06</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    <url>
         <loc>https://gallifreyan.info/guide/scg/</loc>
-        <lastmod>2020-12-30</lastmod>
+        <lastmod>2021-01-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1</priority>
         <image:image>
@@ -281,7 +287,7 @@
     </url>
     <url>
         <loc>https://gallifreyan.info/structure/</loc>
-        <lastmod>2020-12-30</lastmod>
+        <lastmod>2021-01-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
     </url>

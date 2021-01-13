@@ -25,6 +25,20 @@ export const TypeTextMap = new Map([
 
 export const changelog = [
 	{
+		date: '2021-01-09',
+		version: '1.2.6',
+		changes: [
+			{
+				text: 'Breadcrumb data by adding guide/ route.',
+				type: Type.FIXED
+			},
+			{
+				text: 'Last warnings of How-To data in SCG guide.',
+				type: Type.FIXED
+			},
+		]
+	},
+	{
 		date: '2021-01-06',
 		version: '1.2.5',
 		changes: [
