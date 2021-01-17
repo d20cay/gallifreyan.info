@@ -2,19 +2,21 @@
 
 This repository contains the code for the gallifreyan.info domain.
 
-Version: 1.2.6
+Version: 1.2.7
 
 ## Current structure:
 
-- Homepage
+- Gallifreyan Guides Overview
+-  About
+- gallifreyan.info Changelog
+- Contact Me
+- My Gallifreyan Designs
+- Download Resources
 - Guides
-    - Sherman's Circular Gallifreyan
-- Resources
-    - Guide Download
-    - Designs
-- Me
-    - About Me
-    - Contact
+  - Sherman's Circular Gallifreyan
+- Imprint
+- Privacy Policy
+- gallifreyan.info Structure
 
 ## gallifreyan.info Development and Deployment
 

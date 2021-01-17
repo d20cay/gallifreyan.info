@@ -25,6 +25,20 @@ export const TypeTextMap = new Map([
 
 export const changelog = [
 	{
+		date: '2021-01-13',
+		version: '1.2.7',
+		changes: [
+			{
+				text: 'Breadcrumb data by using globally defined page names instead of hardcoded strings. An oversight from the time the global names were introduced..',
+				type: Type.FIXED
+			},
+			{
+				text: 'Leftover issues arisen from change to about/ route instead of about-me/.',
+				type: Type.FIXED
+			},
+		]
+	},
+	{
 		date: '2021-01-09',
 		version: '1.2.6',
 		changes: [
