@@ -1,18 +1,10 @@
 <script>
 	import {currentPage, Page} from "../../stores";
-	import {DOCTOR_WHO_KEYWORDS, PageName} from "../../global";
+	import {DOCTOR_WHO_KEYWORDS, PageName, readableDate} from "../../global";
 	import {contactBreadcrumb} from "../../breadcrumb";
 	import {comments} from "./data";
 
 	currentPage.set(Page.CONTACT);
-
-	function readableDate(date) {
-		const year = date.getUTCFullYear();
-		// Months start at 0 so they have to be incremented by 1 to be correct.
-		const month = date.getUTCMonth() + 1;
-		const day = date.getUTCDate();
-		return `${year}-${month}-${day}`;
-	}
 
 	function readableTransTexts(texts) {
 		if (texts.length === 1) {

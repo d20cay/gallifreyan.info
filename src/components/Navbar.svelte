@@ -35,6 +35,9 @@
 					<li class:uk-active={currentPage === Page.DESIGNS}>
 						<a href="designs/">Designs</a>
 					</li>
+					<li class:uk-active={currentPage === Page.BLOG}>
+						<a href="blog/">Blog</a>
+					</li>
 				</ul>
 			</div>
 			<div class="uk-navbar-right">
@@ -88,6 +91,9 @@
 						</li>
 						<li class:uk-active={currentPage === Page.DESIGNS}>
 							<a href="designs/">Designs</a>
+						</li>
+						<li class:uk-active={currentPage === Page.BLOG}>
+							<a href="blog/">Blog</a>
 						</li>
 						<li class="uk-nav-divider"></li>
 						<li class:uk-active={currentPage === Page.CONTACT}>

@@ -34,6 +34,23 @@ export const aboutBreadcrumb = `
 </script>
 `
 
+export const blogBreadcrumb = `
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "${PageName.BLOG}",
+      "item": "https://gallifreyan.info/blog/"
+    }
+  ]
+}
+</script>
+`
+
 export const changelogBreadcrumb = `
 <script type="application/ld+json">
 {

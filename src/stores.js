@@ -13,7 +13,9 @@ export const Page = {
 	PRIVACY: 9,
 	STRUCTURE: 10,
 	NOT_FOUND: 11,
-	GUIDES: 12
+	GUIDES: 12,
+	BLOG: 13,
+	BLOGPOST: 14
 };
 
 export const currentPage = writable(Page.UNKNOWN);

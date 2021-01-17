@@ -12,7 +12,8 @@ export const PageName = new Map([
 	[Page.IMPRINT, "Imprint"],
 	[Page.PRIVACY, "Privacy Policy"],
 	[Page.STRUCTURE, "gallifreyan.info Structure"],
-	[Page.GUIDES, "Gallifreyan Guides"]
+	[Page.GUIDES, "Gallifreyan Guides"],
+	[Page.BLOG, "Artist Blog"],
 ]);
 
 export const guidePages = [Page.SCG];
@@ -24,6 +25,19 @@ export const LANGUAGE = {
 export const LANGUAGE_NAME_MAP = new Map([
 	[LANGUAGE.SCG, "Sherman's Circular Gallifreyan"]
 ]);
+
+export function readableDate(date) {
+	const year = date.getFullYear();
+	// Months start at 0 so they have to be incremented by 1 to be correct.
+	const month = date.getUTCMonth() + 1;
+	const day = date.getUTCDate();
+	return `${year}-${month}-${day}`;
+}
+
+export function daysAgo(date) {
+	const difference = new Date() - date;
+	return Math.round(difference / (10**3 * 60**2 * 24));
+}
 
 export const DOCTOR_WHO_KEYWORDS = [
 	"gallifreyan",

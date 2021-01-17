@@ -11,6 +11,9 @@
 		<a href="about/">{PageName.get(Page.ABOUT)}</a>
 	</li>
 	<li>
+		<a href="blog/">{PageName.get(Page.BLOG)}</a>
+	</li>
+	<li>
 		<a href="changelog/">{PageName.get(Page.CHANGELOG)}</a>
 	</li>
 	<li>
